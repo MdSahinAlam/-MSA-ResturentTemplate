@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+body{background:#fff;
+     color:#000;
+     font-size:14px;}
+.flex{display:flex;}
+.space{
+    justify-content:space-between;}
+.flex-wrap{flex-wrap:wrap;
+}
+a{text-decoration: none;
+ display: inline-block;
+    font-family: 'Yesteryear', cursive
+}
+ul{list-style:none;}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+.header {
+    background: url(img/header-bg.jpg) repeat;
+    min-height: 700px;
+    width: 100%
+}
+
+.header_bottom {
+    padding: 50px 0;
+    text-align: center
+}
+
+.header_top {
+    padding: 0 5px;
+}
+
+.meanu-bar a{
+    padding:15px 10px 5px ;
+    color: #fff;
+    margin-right:5px;
+    font-size: 18px;
+    border-top: 4px solid transparent;
+    
+}
+.meanu-bar ul li a:hover,.meanu-bar ul li.active a{
+    border-top: 4px solid white;
+}
+.top_left img {
+	height: 70px;
+	padding: 5px;
+}
+.header_bottom h2 {
+	color: white;
+	font-size: 80px;
+	text-align: center;
+    background: url(img/bottom.png) no-repeat bottom center ;
+    padding-bottom: 50px;
+    padding-top: 120px;
+    font-family: 'Yeseva One', cursive;
+}
+.header_bottom {
+    
+}
+.btn1 {
+	color: white;
+	background: black;
+	border: none;
+	padding: 10px 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.btn2 {
+	color: white;
+	border: 1px solid white;
+	background: transparent;
+	padding: 9px 20px;
+}
+.social_icon li {
+	padding: 20px 0 0 10px;
+}
+.social_icon i {
+	color: orange;
+}
+.meanu-bar ul li{
+    position: relative;
+}
+
+.meanu-bar ul li ul{
+    position: absolute;
+    left: -555555555px;
+    width: 200px;
+    background-color: blueviolet;
+    z-index: 9999;
+    
+}
+.meanu-bar ul li ul li{ 
+border-bottom: 1px solid red;}
+.meanu-bar ul li:hover ul{
+    left: 0;
+}
+.part-2 {
+   padding: 80px 0;
+    background: url(img/p-2-main.png) no-repeat center / cover;
+}
+.slider{
+}
+.p2-left {margin-right: 10px;
+	flex: 1;
+   margin-left: 30px;
+    margin-top: 20px;
+}
+.p2-right {margin-right: 10px;
+	flex: 1;
+}
+.p2-left .text h3 {color:gold; 
+                   font-size: 20px;
+}
+
+.text h2{
+    color: #cc9900;
+	font-size: 30px;
+	text-align: center;
+    background: url(img/p-2-icon.png) no-repeat bottom center ;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+   
+    font-family: 'Yeseva One', cursive;
+}
+.text p{
+    margin-bottom: 25px;
+}
+.part-3 {
+    background: url(img/botttom-bg.jpg) no-repeat center / cover;
+    padding: 80px 0;
+    
+}
+
+.ingredients {
+	background-color: rgba(0,0,0,.5);
+	padding: 50px;
+	max-width: 600px;
+	color: #fff;
+	margin-left: 58%;
+}
+.fine-area h2{
+    color: #cc9900;
+	font-size: 30px;
+	text-align: center;
+    background: url(img/p-2-icon.png) no-repeat bottom center ;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+   
+    font-family: 'Yeseva One', cursive;
+}
+.part-5 {
+    background: url(img/maton-dish.jpg) no-repeat center / cover;
+    padding: 80px 0;
+    
+}
+
+.guest {
+    background-color: rgba(0,0,0,.5);
+    padding: 50px;
+    max-width: 600px;
+    color: #fff;
+    margin:0 auto;
+}
+.guest-area h2{
+    color: #cc9900;
+	font-size: 30px;
+	text-align: center;
+    background: url(img/p-2-icon.png) no-repeat bottom center ;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+   
+    font-family: 'Yeseva One', cursive;
+}
+.part-6{
+   padding: 80px 0;
+    background: url(img/p-2-main.png) no-repeat center / cover;
+}
+.book-area-left{
+    flex: 1;
+}
+.img1{
+    margin-right:8px;
+}
+.book-area-right{
+    flex: 1;
+}
+.book-area-right h2{
+    color: #cc9900;
+	font-size: 30px;
+	text-align: center;
+    background: url(img/p-2-icon.png) no-repeat bottom center ;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+   
+    font-family: 'Yeseva One', cursive;
+}
+.col-area label{
+    color: orange;
+    font-size: 20px;
+}
+.col-1{
+    flex:1
+}
+.col-2{
+    flex:1
+}
+.col-btn a{
+    padding: 5px 50px;
+    color: white;
+    background: orange;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.col-btn {
+	margin-left: 24%;
+}
+
+
+/*
+.trapiazum {
+    border-bottom: 100px solid blue;
+    border-left:50px solid transparent;
+    border-right:50px solid transparent;
+    width: 100px;
+*/
+    
+.fotter {
+    background: rgba(0,0,0,.9);
+    color: white;
+    padding: 43px 128px;
+}
+.box-1{
+    flex: 1;
+    text-align: center;
+}
+.box-2{
+    flex: 1;
+     text-align: center;
+  margin-left:60px;
+}
+.box-3{margin-left: 10px;
+    flex: 1;
+     text-align: center;
+}
+.social-area {
+	margin-left: 177px;
+}
+.social-area li {
+	padding: 20px 0 0 10px;
+}
+.social-area i {
+	color: white;
+}
+.box-area h2{
+    color:white;
+	font-size: 24px;
+	text-align: center;
+    background: url(img/fotter-icon.png) no-repeat bottom center ;
+    padding-bottom: 30px;
+   
+    font-family: 'Yeseva One', cursive;
+}
+
+.box-area {
+    margin: 0 auto;
+}
+
+.image {
+    padding-top: 10px
+}
+
+.content_writing {
+    background: url(img/book-area.png) cover ;
+    padding: 40px 0;
+}
+
+.content_path h2{
+    background: url(img/h3-bg.png) no-repeat bottom center ;
+    color: #cc9900;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 32px;
+    margin-bottom: 20px
+    
+}
+
+.writing_left {
+    flex: 1;
+    margin-right: 100px;
+    
+}
+
+.writing_right {
+       flex: 1;
+    margin-left: 100px;
+}
+
+.content_path h5{
+    color: #cc9900;
+    font-size: 22px;
+    border-bottom: 1px solid #cc9900;
+    padding-bottom: 3px;
+    
+}
+.content_path p{
+    padding: 5px 0;
+}
+.price_right {
+    float: right;
+}
+
+.special-area {
+    justify-content: flex-end;
+}
+.special-area .special{
+    background: #cc9900;
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+}
+.greek_salad.special-2{
+    border: 1px solid #cc9900;
+    padding: 24px 10px;
+}
+
+.salads {
+    margin-top: 20px;
+}
+.col-area input {
+	width: 90%;
+	padding: 8px 8px;
+	margin: 8px 0px;
+	border-radius: 20px;
+	border: 2px solid #ddd;
+}
